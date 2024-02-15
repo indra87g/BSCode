@@ -1,0 +1,30 @@
+{
+  "name": "bs-theme",
+  "displayName": "Bootstrap Theme",
+  "description": "Bootstrap Light and Dark theme for Visual Studio Code, and Icons !",
+  "version": "0.1.0",
+  "publisher": "Asterix Corporation and contributors",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes",
+    "Visualization",
+    "Extension Packs"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bootstrap Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bs-dark-color-theme.json"
+      },
+      {
+        "label": "Bootstrap Light",
+        "uiTheme": "vs-light",
+        "path": "./themes/bs-light-color-theme.json"
+      }
+    ]
+  }
+}
